@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" tools:layout_editor_absoluteY="0dp"
+              tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:scaleType="centerCrop"/>
+            <TextView
+                    android:id="@+id/secondName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:background="#38000000"
+                    android:layout_marginBottom="0dp" android:layout_alignBottom="@+id/imageView"/>
+        </RelativeLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView android:layout_marginLeft="8dp" android:textColor="#000" android:layout_width="wrap_content"
+                      android:layout_height="17dp"  android:id="@+id/Name"/>
+            <TextView android:layout_marginLeft="8dp" android:textColor="#000" android:layout_width="wrap_content"
+                      android:layout_height="17dp"  android:id="@+id/Price"/>
+            <TextView android:layout_marginLeft="8dp" android:textColor="#000" android:layout_width="wrap_content"
+                      android:layout_height="16dp" android:id="@+id/Address"/>
+            <Button android:layout_marginLeft="5dp"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book reservation"
+                    android:id="@+id/booking"
+
+            />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

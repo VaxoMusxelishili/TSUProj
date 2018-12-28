@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "190124722039",
+    "firebase_url": "https://uniproject-d0ae3.firebaseio.com",
+    "project_id": "uniproject-d0ae3",
+    "storage_bucket": "uniproject-d0ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190124722039:android:a3de9a46667cb494",
+        "android_client_info": {
+          "package_name": "com.example.vakhtangmuskhelishvili.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190124722039-j9kr0mp9v8nol9f9i4q9nakkqpe58fnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDImTvxCBTZ2DT5Mb1QYoXmSdPNYnaAFcU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

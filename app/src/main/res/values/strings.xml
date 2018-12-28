@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="forgotPass">
+        <u>Forgot Password?</u>
+    </string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="dontHaveAcc">
+        <u>Don\'t Have An Account?
+            <b>Sign Up</b>
+        </u>
+    </string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="eMail">E-mail</string>
+    <string name="pass">Password</string>
+    <string name="uName">Username</string>
+</resources>
